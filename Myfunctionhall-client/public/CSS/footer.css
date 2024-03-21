@@ -1,0 +1,200 @@
+
+
+.footermainsec section {
+    padding: 60px 0;
+    min-height: 100vh;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+/* 
+a,
+a:active,
+a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+} */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.footermainsec img {
+max-width: 100%;
+height: auto;
+}
+.footermainsec .footer-section {
+background-color: #F5F5F5;
+position: relative;
+overflow: hidden;
+z-index: 9;
+}
+.footermainsec .footer-section:before {
+content: '';
+position: absolute;
+top: -146%;
+left: -18%;
+width: 44%;
+height: 257%;
+transform: rotate(54deg);
+background-color: #F5F5F5;
+-webkit-transform: rotate(54deg);
+-moz-transform: rotate(54deg);
+-ms-transform: rotate(54deg);
+-o-transform: rotate(54deg);
+z-index: -10;
+}
+.footermainsec .footer-section:after {
+position: absolute;
+content: '';
+background-color: #fff
+top: -24%;
+right: 4%;
+width: 26%;
+height: 264%;
+transform: rotate(44deg);
+-webkit-transform: rotate(44deg);
+-moz-transform: rotate(44deg);
+-ms-transform: rotate(44deg);
+-o-transform: rotate(44deg);
+z-index: -10;
+}
+.footermainsec .footer-top {
+padding-top: 96px;
+padding-bottom: 50px;
+}
+.footermainsec .footer-top p,
+.company-footer-contact-list li {
+color: #000;
+}
+.footermainsec .company-footer-contact-list {
+margin-top: 10px;
+}
+.footermainsec .company-footer-contact-list li {
+display: flex;
+display: -webkit-flex;
+align-items: center;
+}
+.footermainsec .company-footer-contact-list li+li {
+margin-top: 5px;
+}
+.footermainsec .company-footer-contact-list li i {
+margin-right: 10px;
+font-size: 20px;
+display: inline-block;
+}
+
+.footermainsec .footer-top .site-logo {
+margin-bottom: 25px;
+display: block;
+max-width: 170px;
+}
+.footermainsec .widget-title {
+text-transform: capitalize;
+}
+.footermainsec .footer-top .widget-title {
+color: #000;
+margin-bottom: 40px;
+}
+.courses-link-list li+li {
+margin-top: 10px;
+}
+.footermainsec .courses-link-list li a {
+color: #000;
+text-transform: capitalize;
+font-family: var(--para-font);
+font-weight: 400;
+}
+.footermainsec .courses-link-list li a:hover {
+color: #ffb606;
+}
+.courses-link-list li i {
+margin-right: 5px;
+}
+.footermainsec .footer-top .small-post-title a {
+font-family: var(--para-font);
+color: #000;
+font-weight: 400;
+}
+.footermainsec .small-post-item .post-date {
+color: #ffb606;
+margin-bottom: 3px;
+font-family: var(--para-font);
+font-weight: 400;
+}
+.footermainsec .small-post-list li+li {
+margin-top: 30px;
+}
+.footermainsec .news-letter-form {
+margin-top: 15px;
+}
+.footermainsec .news-letter-form input {
+width: 100%;
+padding: 12px 25px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border: none;
+}
+.footermainsec .news-letter-form input[type="submit"] {
+width: auto;
+border: none;
+background-color: #ffb606;
+padding: 9px 30px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+color: #000;
+margin-top: 10px;
+}
+.footermainsec .footer-bottom {
+padding: 13px 0;
+border-top: 1px solid rgba(255, 255, 255, 0.149);
+}
+.footermainsec .copy-right-text {
+color: #000;
+}
+.footermainsec .copy-right-text a {
+color: #ffb606;
+}
+.footermainsec .terms-privacy li+li {
+margin-left: 30px;
+}
+.footermainsec .terms-privacy li a {
+color: #000;
+position: relative;
+}
+.footermainsec .terms-privacy li a:after {
+position: absolute;
+content: '-';
+color: #000;
+display: inline-block;
+top: 0;
+right: -18px;
+}
+.footermainsec .terms-privacy li+li a:after {
+display: none;
+}
+

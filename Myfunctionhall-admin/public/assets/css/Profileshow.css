@@ -1,0 +1,56 @@
+.bannerimg{
+    width: 1150px ;
+    height: 200px;
+}
+
+
+
+.profileimg{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px #fff;
+}
+
+.bannerim{
+    position: absolute;
+    border: 5px solid white;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.profileim{
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.profiledes{
+    position: initial;
+    height: 250px;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .bannerimg{
+        width: 650px ;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bannerimg{
+        width: 320px ;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .bannerimg{
+        width: 290px ;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .bannerimg{
+        width: 220px ;
+    }
+}
